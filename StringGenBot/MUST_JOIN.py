@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"ʏᴏᴜ ᴍᴜꜱᴛ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ [IRO]({link}) ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ \n\n ᴛʀʏ ᴀɢᴀɪɴ ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ ᴄʜᴀɴɴᴇʟ",
+                    f"ʏᴏᴜ ᴍᴜꜱᴛ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ [𝙄𝙍𝙊]({link}) ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ \n\n ᴛʀʏ ᴀɢᴀɪɴ ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ ᴄʜᴀɴɴᴇʟ",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("✨ ᴊᴏɪɴ ✨", url=link)]
